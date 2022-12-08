@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+        :root {
+            --main-bg-color: #0d5d09;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: var(--main-bg-color);
+            font-family: 'Lato', sans-serif;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav ul {
+            height: 58px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 0 23px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            font-weight: bolder;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+        }
+
+        .search input {
+            width: 30vw;
+            height: 27px;
+            border-radius: 5px;
+            margin: 0 16px 0 56px;
+            padding: 0 12px;
+        }
+
+        .search button {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+        }
+
+        .slider {
+            width: 80vw;
+            margin: 12px auto;
+            overflow: hidden;
+        }
+
+        .card {
+            max-width: 91vw;
+            margin: 37px auto;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .cards {
+            display: flex;
+            overflow: hidden;
+        }
+
+        .card-item {
+            display: inline-flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 15px;
+        }
+
+        .card h2 {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .container {
+            min-height: calc(100vh - 58px - 12vh);
+        }
+
+        footer {
+            height: 12vh;
+            background-color: var(--main-bg-color);
+            color: white;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .flex-all-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 5px 10px;
+            color: white;
+            background: var(--main-bg-color);
+            border: 2px solid white;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        .my-2 {
+            margin: 26px 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><b><a href="tushar.html">Home</a></b></li>
+                <li><b><a href="Reservation.html">Book Now</a></b></li>
+                <li><b><a href="Login.html">Login</a></b></li>
+                <li><b><a href="Contact us.html">Contact Us</a></b></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Search Here">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="">
+            </div>
+
+            <div class="card">
+                <h2 class="my-2">Menu</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" width="200px">
+                        <div class="lines">
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/1523528/pexels-photo-1523528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" width="200px">
+                        <div class="lines">
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" width="200px">
+                        <div class="lines">
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" width="200px">
+                        <div class="lines">
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/4783333/pexels-photo-4783333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" width="200px">
+                        <div class="lines">
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/3993472/pexels-photo-3993472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="" width="200px">
+                        <div class="lines">
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy;Tushar salon </p>
+    </footer>
+</body>
+
+</html>

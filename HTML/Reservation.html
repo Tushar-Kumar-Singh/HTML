@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 15px 30px;
+            font-size: 17px;
+            padding: 8px;
+        }
+
+        .container {
+            background-color: lightblue;
+            padding: 5px 20px 15px 20px;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="password"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+
+        }
+
+        fieldset {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .heading {
+            text-align: center;
+            text-decoration: underline;
+
+        }
+
+        input[type="submit"] {
+            background-color: #4daea1;
+            padding: 12px 20px;
+            border-radius: 4px;
+            color: white;
+            border: none;
+            cursor: zoom-in;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="text-align:right"><a href="tushar.html">BACK</a></h2>
+    <div class="container">
+        <form action="">
+            <h1 class="heading">Pay Here</h1>
+            <p> Required fields are followed by*</p>
+            <h2>Contact Information</h2>
+            <p>Name: *
+                <input type="text" placeholder="Enter Your Name">
+            </p>
+            <fieldset>
+                <legend>Gender *</legend>
+                <p>Male:<input type="radio" required>Female:<input type="radio" name="gender" required></p>
+            </fieldset>
+            <p>Address<textarea type="textarea" cols="30" rows="8" placeholder="Enter Your Address"></textarea></p>
+            <p>E-mail *<input type="email" id="email" placeholder="Enter Your Email ID"></p>
+            <p>Pincode *<input type="numbers" id="numbers" placeholder="_ _ _ _ _ _ _"></p>
+            <main>
+                <P>Card Type:
+                    <select name="card_type" id="card_type">
+                        <option>--select_card_type--</option>
+                        <option>Rupay</option>
+                        <option>Mastercard</option>
+                        <option>Visa</option>
+                    </select>
+                <p class="hey">Card Number: *<input type="number" placeholder="Enter Card Number"></p>
+                <p class="hey">Expiration Date: *<input type="date" placeholder="02/11"></p>
+                <P class="hey">CVV *<input type="password" required></P>
+                <input type="submit" value="PAY NOW">
+            </main>
+            </P>
+        </form>
+    </div>
+</body>
+
+</html>
