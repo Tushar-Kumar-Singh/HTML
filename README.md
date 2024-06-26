@@ -1,1 +1,2 @@
-# HTML
+# Saloon Management System
+This is my first semester btech computer science project of making a website using HTML, CSS and JavaScript. There are total of 4 accessible pages which are home page, contact page, login page and payment page. My project is on making a saloon management website where the saloon can sell their products as well as services. This is the simple website using only basics of JavaScript. 
